@@ -41,74 +41,114 @@
 
 <body>
 
-    <div class="tabs">
-        <button class="tab" onclick="openTab('all')">All</button>
-        <button class="tab" onclick="openTab('tab1')">Таб 1</button>
-        <button class="tab" onclick="openTab('tab2')">Таб 2</button>
-        <button class="tab" onclick="openTab('tab3')">Таб 3</button>
-    </div>
-
-    <div id="all" class="content">
-        <div class="swiper swiper-container all-swiper">
-            <div class="swiper-wrapper"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-scrollbar"></div>
-            <div class="swiper-pagination"></div>
+           <div class="tabs">
+            <button class="tab active" onclick="openTab('all')">All</button>
+            <button class="tab" onclick="openTab('tab1')">Tab 1</button>
+            <button class="tab" onclick="openTab('tab2')">Tab 2</button>
+            <button class="tab" onclick="openTab('tab3')">Tab 3</button>
         </div>
-    </div>
 
-    <div id="tab1" class="content" style="display:none">
-        <div class="swiper swiper-container swiper1">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="https://cdn.magloft.com/github/swiper/images/page-001.jpg" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="https://cdn.magloft.com/github/swiper/images/page-002.jpg" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="https://cdn.magloft.com/github/swiper/images/page-003.jpg" />
-                </div>
-                <div class="swiper-slide">
-                    <img src="https://cdn.magloft.com/github/swiper/images/page-004.jpg" />
-                </div>
+        <div id="all" class="content">
+            <div class="swiper swiper-container all-swiper">
+                <div class="swiper-wrapper"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-scrollbar"></div>
-            <div class="swiper-pagination"></div>
         </div>
-    </div>
 
-    <div id="tab2" class="content" style="display:none">
-        <div class="swiper swiper-container swiper2">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="https://cdn.magloft.com/github/swiper/images/page-006.jpg" />
+        <div id="tab1" class="content" style="display:none">
+            <div class="swiper swiper-container swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="case-list">
+                            <span class="case-category">Label</span>
+                            <a href="#" class="case-title">IT infrastructure management</a>
+                            <span class="case-date">25 October, 2023</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="case-list">
+                            <span class="case-category">Label</span>
+                            <a href="#" class="case-title">Software development</a>
+                            <span class="case-date">25 October, 2023</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                  <img src="https://cdn.magloft.com/github/swiper/images/page-007.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="https://cdn.magloft.com/github/swiper/images/page-008.jpg" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="https://cdn.magloft.com/github/swiper/images/page-009.jpg" />
-                </div>
-              </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-scrollbar"></div>
-              <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
-    </div>
 
-    <div id="tab3" class="content" style="display:none">
-        <div class="swiper-container swiper3">
-            <!-- Место для слайдов таба 3 -->
+        <div id="tab2" class="content" style="display:none">
+            <div class="swiper swiper-container swiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="case-list">
+                            <span class="case-category">Label</span>
+                            <a href="#" class="case-title">IT infrastructure management 2</a>
+                            <span class="case-date">25 October, 2023</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="case-list">
+                            <span class="case-category">Label</span>
+                            <a href="#" class="case-title">Software development 2</a>
+                            <span class="case-date">25 October, 2023</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="case-list">
+                            <span class="case-category">Label</span>
+                            <a href="#" class="case-title">IT infrastructure management 2</a>
+                            <span class="case-date">25 October, 2023</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="case-list">
+                            <span class="case-category">Label</span>
+                            <a href="#" class="case-title">Software development 2</a>
+                            <span class="case-date">25 October, 2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
-    </div>
+
+        <div id="tab3" class="content" style="display:none">
+            <div class="swiper swiper-container swiper3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="case-list">
+                            <span class="case-category">Label</span>
+                            <a href="#" class="case-title">IT infrastructure management 3</a>
+                            <span class="case-date">25 October, 2023</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="case-list">
+                            <span class="case-category">Label</span>
+                            <a href="#" class="case-title">Software development 3</a>
+                            <span class="case-date">25 October, 2023</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="case-list">
+                            <span class="case-category">Label</span>
+                            <a href="#" class="case-title">Software development 3</a>
+                            <span class="case-date">25 October, 2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="/script.js"></script>
