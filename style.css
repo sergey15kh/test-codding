@@ -1,0 +1,27 @@
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 200px;
+}
